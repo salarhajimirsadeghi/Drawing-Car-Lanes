@@ -8,20 +8,11 @@
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
-
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
-
 ---
 
-### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
-My pipeline consisted of 6 steps. 
+### 1. Pipeline 
+ My pipeline consisted of 6 steps. 
  1) I converted the images to grayscale
  2) I did a Gaussian Blur to cancel some noise
  3) I used the Canny method to detect edges in our image
@@ -29,25 +20,22 @@ My pipeline consisted of 6 steps.
  5) I used Hough line transformation to detect the needed lines (road)
  6) Merged our Hough line image with original to see the road on the original image
 
-
-
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+Here is an image example:
 
-![alt text][image1]
+![alt text](https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_image_output/whiteCarLaneSwitch_output.jpg)
 
-
-### 2. Identify potential shortcomings with your current pipeline
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+Here is a video example:
+![alt text](https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_videos_output/solidWhiteRight.gif)
 
 
-### 3. Suggest possible improvements to your pipeline
+### 2. Shortcomings with my current pipeline
 
-A possible improvement would be to ...
 
-Another potential improvement could be to ...
+One potential shortcoming would be when the roads get twisty and windy, I don't think my pipeline can detect all the lines property. 
+
+
+### 3. Improvements to my pipeline
+
+A possible improvement would be to better my slope function that's derived from hough lines function, 
