@@ -22,14 +22,11 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 Here is an image example:
 
-![alt text](https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_image_output/whiteCarLaneSwitch_output.jpg)
-
 <img src="https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_image_output/whiteCarLaneSwitch_output.jpg" width="400">
+
 
 Here is a video example:
 
-
-![alt text](https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_videos_output/solidWhiteRight.gif)
 <img src="https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_videos_output/solidWhiteRight.gif" width="400">
 
 
