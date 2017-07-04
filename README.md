@@ -1,7 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
-
 ---
 
 **Finding Lane Lines on the Road**
@@ -26,18 +24,25 @@ Here is an image example:
 
 ![alt text](https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_image_output/whiteCarLaneSwitch_output.jpg)
 
+<img src="https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_image_output/whiteCarLaneSwitch_output.jpg" width="400">
+
 Here is a video example:
 
 
 ![alt text](https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_videos_output/solidWhiteRight.gif)
+<img src="https://github.com/salarhajimirsadeghi/Drawing-Car-Lanes/blob/master/test_videos_output/solidWhiteRight.gif" width="400">
 
 
 ### 2. Shortcomings with my current pipeline
 
 
-One potential shortcoming would be when the roads get twisty and windy, I don't think my pipeline can detect all the lines property. 
+2a) One potential shortcoming would be when the roads get twisty and windy, I don't think my pipeline can detect all the lines property. 
+
+2b) Another shortcoming is if there is a car directly in front of me, I don't think it'll be able to separate the lines from the lanes and the lines from the vehicle.
 
 
 ### 3. Improvements to my pipeline
 
-A possible improvement would be to better my slope function that's derived from hough lines function, 
+3a) A possible improvement would be to better my slope function that's derived from hough lines function.
+
+3b) I need to be able to clearly separate lines from lanes and other objects
